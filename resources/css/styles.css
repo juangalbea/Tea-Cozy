@@ -7,6 +7,7 @@ body {
   opacity: 0.9;
   text-align: center;
   top: 0px;
+  margin-top: 0px;
 }
 
 a {
@@ -44,15 +45,45 @@ nav span {
 
 .content {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*mission*/
 
 #mission {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url(../images/img-mission-background.jpg);
   width: 1200px;
   height: 700px;
+  margin-top: 70px;
+}
 
+.title {
+  background-color: black;
+  width: 1200px;
+}
+
+.title h2 {
+  margin: 10px auto 20px auto;
+}
+
+.title h4 {
+  margin: 10px auto;
+}
+
+#featured-tea {
+  width: 1200px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.square {
+  margin: auto 50px;
 }
